@@ -1,5 +1,5 @@
 context:
-  version: "1.0.22"
+  version: "1.0.23"
 
 package:
   name: imgcat
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/danielgatis/imgcat/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 1ff3ec14ff076f162f48f5273c008014f02168f21fb06784c87e3023abfed767
+  sha256: 027a5f673b92fa85e993efa48be260c5cc5cb42f421f611741b279b46f1dfb25
   target_directory: src
 
 build:
